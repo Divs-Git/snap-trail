@@ -1,5 +1,11 @@
 <template>
-  <main>Hii</main>
+  <main>
+    <Navbar />
+    <RouterView />
+  </main>
 </template>
 
-<script setup></script>
+<script setup>
+import Navbar from "./components/Navbar.vue";
+import { RouterView } from "vue-router";
+</script>
