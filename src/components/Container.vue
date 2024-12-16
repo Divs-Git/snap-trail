@@ -6,7 +6,7 @@
 <script setup></script>
 <style>
 .container {
-  width: 1000px;
+  width: 70%;
   margin: 0 auto;
 }
 </style>
